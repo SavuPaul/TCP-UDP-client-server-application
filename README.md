@@ -1,7 +1,5 @@
 # README ASSIGNMENT 2 - COMMUNICATION PROTOCOLS - TCP & UDP CLIENT-SERVER APPLICATION
 
-!!! The basic structure of the makefile and how both the server and client (subscriber) operate is taken from lab 7 !!!
-
 The implementation consists of a server that remains open until it is forcefully stopped from stdin with the "exit" command, and clients that connect to the server via TCP sockets, allowing them to send or receive data.
 
 Data transmission is performed with the `send_data` function, which first sends the packet size followed by the packet itself. Data reception is handled by the `receive_data` function, which first receives the packet size followed by the packet.
